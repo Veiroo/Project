@@ -1,0 +1,57 @@
+.backback{
+    color: rgb(232, 5, 5);
+}
+
+
+.important{
+    color: rgb(255, 214, 152);
+}
+
+
+.background{
+    background-color: rgb(198, 141, 255);
+}
+
+.backColor{
+    background-color: rgb(206, 206, 206);
+}
+
+.text{
+    box-sizing: border-box;
+    max-width: 300px;
+    border-style: dashed;
+    border-radius: 10%;
+    border-width: 10px;
+    border-color: aqua;
+    margin-inline: 20px auto;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.linkOutline:active{
+    color: rgb(80, 0, 252);
+    
+}
+.linkOutline:focus{
+    outline-style: auto;
+    outline-width:3px;
+    outline-color: aqua;
+}
+
+.tabelNothing{
+    border-style: dashed;
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.col:nth-child(even){
+    background-color: #eee;
+}
+
+.listStyle{
+    color: red;
+    list-style-type: circle;
+    list-style-position: inside;
+}

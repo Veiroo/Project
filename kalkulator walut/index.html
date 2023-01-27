@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <script defer src="js/form.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <title>value calculator</title>
+</head>
+
+<body class="body">
+    <form class="js-form form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walut</legend>
+            <p>
+                <label for="wartość-zł"><span class="form__labelText">Wpisz kwotę w PLN: </span></label>
+                <input value="1" step="any" min="1" required type="number" id="wartość-zł" name="pln" class="js-value form__input">
+            </p>
+            <p>
+                <label><span class="form__labelText">Waluta: </span>
+                    <select name="waluty" class="js-select form__input">
+                        <option class="js-select__option1" value="dolarAmerykański">Dolar amerykański</option>
+                        <option class="js-select__option2" value="dolarNowozelandzki">Dolar nowozelandzki</option>
+                        <option class="js-select__option3" value="dolarKanadyjski">Dolar kanadyjski</option>
+                        <option class="js-select__option4" value="funt">Funt brytyjski</option>
+                        <option class="js-select__option5" value="lej">Lej rumuński</option>
+                        <option class="js-select__option6" value="korona">Korona szwedzka</option>
+                        <option class="js-select__option7" value="hrywna">Hrywna Ukraińska</option>
+                        <option class="js-select__option8" value="lira">Lira turecka</option>
+                        <option class="js-select__option9" value="korona">Korona duńska</option>
+                        <option class="js-select__option10" value="pesoFilipińskie">Peso filipińskie</option>
+                        <option class="js-select__option11" value="pesoMeksykańskie">Peso meksykańskie</option>
+                        <option class="js-select__option12" value="juan">Juan chiński</option>
+                        <option class="js-select__option13" value="euro">Euro</option>
+                        <option class="js-select__option14" value="frank">Frank szwajcarski</option>
+                    </select>
+
+                </label>
+
+            </p>
+
+             <span class="form__labelText">Kwota: </span><strong class="js-result form__labelText">0.23</strong>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
