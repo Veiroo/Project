@@ -31,7 +31,7 @@ html{
     background-color:rgb(186, 186, 186) ;
     border-color: rgb(220, 220, 220);
     border-width: 5px;
-    border-style:groove;
+    border-style: groove;
     position: relative;	box-shadow: 5px 10px 18px 0px #565656;
     
 }

@@ -6,20 +6,20 @@ html{
     box-sizing: inherit;
 }
 
-.section__tabel{
+.section__table{
     border-collapse: collapse;
     overflow: auto;
 }
 
-.section__tabelMature{
-    border-style:ridge;
+.section__tableMature{
+    border-style: ridge;
     border-width: 2px;
     text-align: center;
     padding: 10px;
 }
 
 
-.section__tabelMature:hover{
+.section__tableMature:hover{
     background-color: #969696;
 }
 
