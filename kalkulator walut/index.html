@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <title>value calculator</title>
+    <title>kalkulator walut</title>
 </head>
 
 <body class="body">
@@ -19,11 +19,12 @@
         <fieldset class="form__fieldset">
             <legend class="form__legend">Kalkulator walut</legend>
             <p>
-                <label for="wartość-zł"><span class="form__labelText">Wpisz kwotę w PLN: </span></label>
-                <input value="1" step="any" min="1" required type="number" id="wartość-zł" name="pln" class="js-value form__input">
+                <label for="value-pln"><span class="form__text">Wpisz kwotę w PLN: </span></label>
+                <input value="1" step="any" min="1" required type="number" id="value-pln" name="pln"
+                    class="js-value form__input">
             </p>
             <p>
-                <label><span class="form__labelText">Waluta: </span>
+                <label><span class="form__text">Waluta: </span>
                     <select name="waluty" class="js-select form__input">
                         <option class="js-select__option1" value="dolarAmerykański">Dolar amerykański</option>
                         <option class="js-select__option2" value="dolarNowozelandzki">Dolar nowozelandzki</option>
@@ -45,7 +46,9 @@
 
             </p>
 
-             <span class="form__labelText">Kwota: </span><strong class="js-result form__labelText">0.23</strong>
+            <span class="form__text">Kwota: </span>
+            <strong class="js-result 
+        form__text">0.23</strong>
 
         </fieldset>
     </form>

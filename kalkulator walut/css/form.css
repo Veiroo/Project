@@ -9,7 +9,7 @@
     
 }
 
-.form__labelText{
+.form__text{
     padding: 10px;
     width: 200px;
     display: inline-block;
@@ -17,7 +17,7 @@
 }
 
 .form__input{
-border: 3px solid #ccc;
+    border: 3px solid #ccc;
     padding: 11px;
     width: 100%;
     max-width: 200px;
