@@ -8,9 +8,6 @@ let option6Element = document.querySelector(".js-select__option3");
 let option7Element = document.querySelector(".js-select__option4");
 let valueElement = document.querySelector(".js-value");
 
-
-
-
 formElement.addEventListener("input", (event) => {
     event.preventDefault();
 
@@ -33,8 +30,6 @@ formElement.addEventListener("input", (event) => {
             rate = 1.04
             break;
     }
-
-
 
     let resultt = amount * rate;
 
